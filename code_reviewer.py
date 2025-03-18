@@ -9,7 +9,7 @@ class CodeReviewer:
         return "Code review result: Add proper type checking."  
 
     def get_github_code(self, repo_owner, repo_name, file_path):  
-        url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/{file_path}"  
+        url = f"https://api.github.com/repos/{Ra123jdeep}/{CodeReviewerProject}/contents/{"C:\Users\Rajdeep\CodeReviewerProject"}"  
         headers = {"Authorization": f"token {self.github_token}"}  
         response = requests.get(url, headers=headers)  
         if response.status_code == 200:  
